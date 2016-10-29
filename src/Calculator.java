@@ -6,7 +6,7 @@ class Calculator {
     }
 
 
-    public float divide(int a, int b) {
+    public float divide(float a, float b) {
         if(b != 0) {
             return a / b;
         } else {
@@ -14,7 +14,11 @@ class Calculator {
         }
     }
 
-    public float multiply(int a, int b) {
+    public float multiply(float a, float b) {
         return a * b;
+    }
+
+    public float subtract(float a, float b) {
+        return a - b;
     }
 }
